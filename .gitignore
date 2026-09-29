@@ -1,1 +1,11 @@
-venv/ 
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.db
+*.png
+*.jpg
+sales_chart.png
+category_chart.png
+region_chart.png
