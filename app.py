@@ -1288,8 +1288,6 @@ st.markdown("""
     <p style="font-size: 15px; color: #e2e8f0; margin-bottom: 4px;">
         © 2026 Kirtan Gandhi. All rights reserved.
     </p>
-    <p style="font-size: 12px; color: #94a3b8; margin-top: 0;">
-        Powered by Claude AI & Streamlit
-    </p>
+   
 </div>
 """, unsafe_allow_html=True)
