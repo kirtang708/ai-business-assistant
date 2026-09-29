@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st     #streamlit run app.py
 import pandas as pd
 import sqlite3
 from anthropic import Anthropic
@@ -1283,4 +1283,13 @@ Be specific with numbers and actionable insights."""
 
 # Footer
 st.markdown("---")
-st.markdown("Built with Streamlit, Claude API, and SQLite | Data-driven business insights powered by AI")
+st.markdown("""
+<div style="text-align: center; padding-top: 10px;">
+    <p style="font-size: 15px; color: #e2e8f0; margin-bottom: 4px;">
+        © 2026 Kirtan G. All rights reserved.
+    </p>
+    <p style="font-size: 12px; color: #94a3b8; margin-top: 0;">
+        Powered by Claude AI & Streamlit
+    </p>
+</div>
+""", unsafe_allow_html=True)
